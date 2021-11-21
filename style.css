@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap");
+
+:root {
+  --main-color: #fdf4dc;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+/* ALL THE HEADING STUFF */
+.header {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--main-color);
+  align-items: center;
+  /* border-style: solid; */
+  border-bottom: solid 5px;
+}
+.title {
+  margin-left: 20px;
+  display: flex;
+  font-size: 50px;
+  font-weight: 500;
+}
+.links {
+  padding-right: 10px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+a {
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: larger;
+}
+
+/* FIRST MIDDLE THINGS */
+.one,
+.two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--main-color);
+  width: 100vw;
+  height: 100vh;
+  border-bottom: 5px;
+  border-style: solid;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  align-items: flex-start;
+  margin-right: 30px;
+  gap: -2vh;
+}
+img {
+  width: 50vw;
+}
+.right {
+  display: flex;
+  justify-content: center;
+}
+button {
+  margin: 50px;
+  padding: 10px 50px 10px 50px;
+  background-color: black;
+  color: white;
+  font-size: large;
+  font-weight: 400;
+  border-radius: 50px;
+}
+
+/* SECOND PAGE */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 300px;
+  height: 350px;
+  border-style: solid;
+  margin: 30px;
+  padding: 10px;
+}
