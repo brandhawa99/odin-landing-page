@@ -102,4 +102,24 @@ button {
   border-style: solid;
   margin: 30px;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.footer {
+  background-color: var(--main-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  height: 40px;
+  align-items: center;
+}
+.left-footer {
+  margin-left: 20px;
+}
+.right-footer {
+  margin-right: 30px;
+  margin-left: 10px;
 }
